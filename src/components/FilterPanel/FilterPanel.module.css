@@ -1,0 +1,48 @@
+.filterpanel{
+  
+  display: flex;
+  
+  flex-wrap: wrap;
+  gap:1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  
+
+}
+
+.input,
+.select{
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid rgb(185, 179, 179);
+   border-radius: 8px;
+    transition: border 0.3s;
+     margin-bottom: 50px; 
+} 
+
+.input:focus,
+.select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap:0.4rem;
+    color:rgb(0, 0, 0);
+    border-radius: 8px ;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+}
+.resetButton:hover {
+    background-color: #B5E48C;
+}
+
+.resetButton{
+
+border: 1px solid grey;
+margin:4px;
+
+}

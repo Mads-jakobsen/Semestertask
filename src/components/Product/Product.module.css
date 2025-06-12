@@ -1,0 +1,45 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .addButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .addButton:hover {
+    background-color: #45a049;
+  }
+  
+.Detail{
+  text-align: center;
+  padding:25px;
+}
+
+  .Detail img{
+    width: 400px;
+    max-width: 100%;
+
+  }
+  .rewiev{
+    border-radius: 10px;
+    background-color: #76c893;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:10px; 
+    padding: 5px;
+  }

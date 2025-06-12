@@ -1,0 +1,203 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+ * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app section {
+  text-align: center;
+}
+
+.app div img {
+  width: 400px;
+  max-width: 100%;
+}
+
+
+.app h1 {
+  padding: 70px;
+
+}
+
+
+ .app div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+} 
+ .app div div {
+  margin:20px;
+  display: flex;
+ }
+
+
+
+
+.topProd {
+  max-width: 1300px;
+  padding: 20px;
+  margin:0 auto;
+}
+
+.topProd h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.topProd > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  
+}
+
+.topProd > div > div {
+  
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  background: #D9ED92;
+  transition: transform 0.2s ease;
+
+}
+
+.topProd p {
+  
+margin-top: 20px;
+
+}
+
+.text{
+  margin-top:40px;
+}
+
+.Cartcontent{
+  text-align: center;
+  margin-bottom: 40px;
+  padding:20px;
+}
+ .Cartcontent img {
+  width: 200px;
+  max-width: 100%;
+} 
+
+
+.Cartcontent p{
+
+font-size: 18px;
+line-height: 2;
+  
+}
+
+.Cartcontent h2{
+  margin-top: 3rem;
+  margin-bottom:3rem;
+  
+}
+.Cartcontent h4{
+  padding: 20px;
+}
+
+
+.topProd img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.FrontLink:hover{
+  color: white;
+
+}
+
+ .FrontLink{
+   
+color: white;
+  background-color:rgb(23, 102, 151);
+padding:3px;
+
+
+border-radius: 5px;
+
+}
+
+button:hover{
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border: 1px solid black;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+  .app div {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+@media screen and (max-width:530px){
+
+  .topProd div{
+    display: grid;
+    place-content: center;
+  }
+}
+
+@media screen and (max-width:380px){
+  .app h1 {
+
+    font-size: 31px;
+  }
+}
